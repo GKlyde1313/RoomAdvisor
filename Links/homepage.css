@@ -1,0 +1,86 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+.main-portfolio {
+    width: 100%;
+    height: 90vh;
+}
+
+.content-portfolio {
+    width: 100%;
+    height: inherit;
+}
+
+.content-portfolio img {
+    width: 100%;
+    height: 100vh;
+    filter: brightness(50%);
+}
+
+iframe {
+    margin: 0%;
+    padding: 0%;
+    width: 50%;
+    height: 80vh;
+    border-style: 0;
+    border: 0;
+    bottom: 8vh;
+    left: 10vh;
+    position: absolute;
+    border-radius: 50px 50px;
+}
+
+.slogan {
+    font-family:  'myFont-Logo';
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px black;
+    position: absolute;
+    bottom: 8vh;
+    right: 10vh;
+    height: 80vh;
+    width: 40%;
+    border-radius: 50px 50px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.slogan h1 {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 30px;
+}
+
+.slogan h1:hover {
+    transition: 0.7s ease;
+    color: #f1d6ab;
+}
+
+.slogan h1:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+iframe:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: myFont-NavMenu;
+    src: url(../Font/SIMPLIFICA\ Typeface.ttf);
+}
+
+@font-face {
+    font-family: myFont-Logo;
+    src: url(../Font/Mailpile-Normal.otf);
+}
