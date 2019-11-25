@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.main-portfolio {
+    height: 100vh;
+    width: 100%;
+}
+
+.content-portfolio {
+    height: inherit;
+    width: 100%;
+}
+
+.background-portfolio {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.background-portfolio img {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.body-portfolio{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.upper-body{
+    height: 100%;
+    width: 100%;
+    /*margin-top: 8vh;
+    margin-left:19vh;
+    margin-right: 16vh;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-bottom: .5vh;*/
+    color: white;
+    text-align: justify;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+iframe{
+    position: absolute;
+    margin-top:10vh;
+    margin-bottom:10vh;
+    margin-left:19vh;
+    width: 100vh;
+    height: 76vh;
+}
