@@ -23,7 +23,7 @@ html, body {
 .header-portfolio {
     height: 10vh;
     width: 100%;
-    background-color: white;
+    background-color: #f1d6ab;
     box-shadow: 4px 12px 16px 24px rgba(0, 0, 0, 0.2);
 }
 
@@ -63,7 +63,7 @@ html, body {
     text-decoration: none;
     text-transform: uppercase;
 }
-
+/* drop down portfolio */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -72,7 +72,7 @@ html, body {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #c72c41;
+    background-color: #f1d6ab;
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -92,11 +92,15 @@ html, body {
 .dropdown-content a:hover{
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
-
+.dropdown-content a:hover{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.03);
+}
 /* HOVER METHOD*/
 .header-portfolio h1:hover{
     transition: 0.7s ease;
-    color: #fcf5b0;
+    color: #e3b04b;
 }
 .header-portfolio h1:hover{
     -ms-transform: scale(1.05);
@@ -105,9 +109,8 @@ html, body {
 }
 .header-portfolio ul li :hover {
     transition: 0.7s ease;
-    color: #f1d6ab;
+    color: #e3b04b;
 }
-
 .header-portfolio li:hover {
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
