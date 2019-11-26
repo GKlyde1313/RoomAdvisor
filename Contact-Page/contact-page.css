@@ -47,75 +47,145 @@ html, body {
 .main-content {
     position: absolute;
     margin-top: 5vh;
-    margin-bottom: 10vh;
     margin-left: 19vh;
-    width: 150vh;
+    width: 190vh;
     height: 89vh;
-    border-style: solid;
-    border-color: pink;
-    background-color: black;
+    background-color: #F1D6AB;
     text-transform: uppercase;
-}
-
-.secondary-content {
-    float: right;
-    height: 89vh;
-    width: 37vh;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
-    margin-right: 19vh;
-    color: #F1D6AB;
-    border-style: solid;
-    border-color: pink;
-    background-color: black;
+    border-radius: 10px;
 }
 
 #First-Message {
     text-align: center;
+    border-style: solid;
+    border-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .right-part {
     text-transform: uppercase;
-    text-align: center;
     float: left;
     height: 65.5vh;
-    width: 50%;
+    width: 45%;
+    margin-left: 40px;
+    border-style: solid;
+    border-color: white;
 }
 
 .left-part {
     text-transform: uppercase;
-    text-align: center;
-    float: left;
+    float: right;
     height: 65.5vh;
-    width: 50%;
+    width: 45%;
+    margin-right: 40px;
+    border-style: solid;
+    border-color: white;
 }
-.form-label1{
+
+.form-label1 {
+    padding-left: 5vh;
     font-size: 1.3rem;
 }
-.form-label2{
+
+.form-label2 {
+    padding-left: 5vh;
     font-size: 1.3rem;
 }
-.form-input{
+
+.form-input {
+    text-align: center;
     padding-bottom: 7.6vh;
 }
-.form-input-text{
+
+.form-input-text {
+    text-align: center;
     height: 5vh;
     width: 90%;
+    border-radius: 10px;
 }
+
 .form-input-textarea {
+    text-align: center;
     height: 58vh;
-    width: 90%;
+    width: 88%;
+    border-radius: 10px;
 }
 
 .form-submit {
-    padding-top: 0px;
-    text-align: center;
+    float: left;
+    height: 10vh;
+    width: 100%;
+    padding-top: 3vh;
+    padding-left: 67vh;
 }
 
 .btn-submit {
+    margin-left: 40px;
     padding: 5px 25px;
     text-decoration: none;
     color: white;
-    background-color: darkred;
-    border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+    background-color: #F1D6AB;
+    border-radius: 10px;
+}
+
+#btn-clear {
+    margin-left: 14px;
+}
+
+/* */
+
+#First-Message:hover {
+    transition: 0.7s ease;
+    background-color: #e3b04b;
+    border-color: black;
+}
+
+.right-part:hover {
+    transition: 0.7s ease;
+    background-color: #e3b04b;
+    border-color: black;
+}
+
+.left-part:hover {
+    transition: 0.7s ease;
+    background-color: #e3b04b;
+    border-color: black;
+}
+
+.main-content h1:hover {
+    transition: 0.7s ease;
+    color: black;
+}
+
+.form-label1:hover {
+    transition: 0.7s ease;
+    color: black;
+}
+
+.form-label2:hover {
+    transition: 0.7s ease;
+    color: black;
+}
+
+.form-input-text:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.btn-submit:hover {
+    transition: 0.7s ease;
+    background-color: #e3b04b;
+    border-color: black;
+    color: black;
+}
+
+
+.form-input-textarea:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.02);
 }
