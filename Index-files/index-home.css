@@ -1,0 +1,112 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.main-portfolio {
+    height: 100vh;
+    width: 100%;
+}
+
+.content-portfolio {
+    height: inherit;
+    width: 100%;
+}
+
+.background-portfolio {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.background-portfolio img {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.body-portfolio {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.upper-body {
+    height: 100%;
+    width: 100%;
+    /*margin-top: 8vh;
+    margin-left:19vh;
+    margin-right: 16vh;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-bottom: .5vh;*/
+    color: white;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+iframe {
+    position: absolute;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 19vh;
+    width: 100vh;
+    height: 76vh;
+    border-radius: 50px 50px;
+}
+
+.h3-content{
+    float: right;
+    height: 76vh;
+    width: 88vh;
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+    margin-right: 22vh;
+    color: #F1D6AB;
+    text-shadow: 2px 2px black;
+}
+
+.h3-content h1{
+    padding-left: 45px;
+    text-decoration: none;    
+    text-transform: uppercase;
+}
+.h3-content h2{
+    letter-spacing: 3px;
+    padding-left: 45px;
+    text-decoration: none;    
+    text-transform: uppercase;
+}
+
+/* HOVER METHOD */
+
+.h3-content h1:hover{
+    transition: 0.7s ease;
+    color: #e3b04b;
+}
+.h3-content h1:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.h3-content h2:hover{
+    transition: 0.7s ease;
+    color: #e3b04b;
+}
+.h3-content h2:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+iframe:hover{
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
