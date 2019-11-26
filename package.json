@@ -1,7 +1,6 @@
 {
   "name": "roomadvisor",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "homepage": "https://github.com/GKlyde1313/RoomAdvisor",
   "scripts": {
@@ -19,5 +18,7 @@
   },
   "dependencies": {
     "gh-pages": "^2.1.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
