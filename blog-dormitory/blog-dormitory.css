@@ -241,7 +241,17 @@ html, body {
 
 /* Hover */
 
-.author:hover {
+.author a:hover {
+    color: #0C9463;
+    text-shadow: 1px 1px white;
+    transition: .3s ease;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.author-two a:hover {
+    color: #0C9463;
+    text-shadow: 1px 1px white;
     transition: .3s ease;
     -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
@@ -253,4 +263,21 @@ html, body {
     -ms-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+}
+.image-two:hover {
+    transition: .3s ease;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.image-three:hover {
+    transition: .3s ease;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.main-frame:hover{
+    background-color: white;
+    color: #0C9463;
+    text-shadow: 1px 1px white;
 }

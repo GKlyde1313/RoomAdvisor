@@ -1,0 +1,98 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.main-portfolio {
+    height: 140vh;
+    width: 100%;
+}
+
+.content-portfolio {
+    height: inherit;
+    width: 100%;
+}
+
+.background-portfolio {
+    position: relative;
+    height: 40vh;
+    width: 100%;
+}
+
+.background-portfolio img {
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.background-text-portfolio {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.background-text-portfolio h1 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: white;
+    padding-top: 20px;
+    padding-left: 90px;
+    font-size: 5rem;
+    text-shadow: 1px 1px #0C9463;
+}
+
+.contact-form {float:left;
+    position: absolute;
+    height: 100vh;
+    width: 50%;
+    color: #0C9463;
+    padding-left: 90px;
+}
+
+.contact-form h1 {
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.contact-form h5 {
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#customers {
+    font-family: "Segoe UI", Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.message-form{
+    right: 0;
+    position: absolute;
+    height: 100vh;
+    width: 93vh;
+    background-color: black;
+    color: #0C9463;
+    padding-left: 90px;
+}
