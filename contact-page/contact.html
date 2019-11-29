@@ -14,10 +14,10 @@
             <div class="background-portfolio">
                 <img src="../img/contactus.jpg">
             </div>
-            <div class="background-text-portfolio">
+            <div id="pop-up" class="background-text-portfolio">
                 <h1>Contact Us</h1>
             </div>
-            <div class="contact-form">
+            <div id="pop-up" class="contact-form">
                 <h1>We are here to listen.</h1>
                 <h5>For inquiries, comments, and suggestions, you may contact our Customer Service through any of the
                     following:</h5>
@@ -49,11 +49,27 @@
                 </table>
                 <h5>We aim to provide you timely feedback after we record and evaluate your concerns, inquiries, and
                     suggestions.</h5>
-                <h5>If you are not satisfied with the resolution of your complaint, you may approach any of the 
+                <h5>If you are not satisfied with the resolution of your complaint, you may approach any of the
                     officers or send an e-mail to Customer Service through roomadvisor@gmail.com</h5>
             </div>
-            <div class="message-form">
-                
+            <div id="pop-up" class="message-form">
+                <h5>If you are not satisfied with the resolution of your complaint, you send an e-mail to Customer
+                    Service through roomadvisor@gmail.com</h5>
+                <div class="form">
+                    <label class="Message-Form">Email:</label>
+                    <input placeholder="Email Address" id="mailSubject" class="Input-Form" type="text">
+                    <label class="Message-Form">Contact:</label>
+                    <input placeholder="Mobile Phone" id="mailSubject" class="Input-Form" type="text">
+                    <label class="Message-Form">Subject:</label>
+                    <input placeholder="Topic" id="mailSubject" class="Input-Form" type="text">
+                    <label class="Message-Form">Message:</label>
+                    <textarea placeholder="Describe your issue or share your ideas" id="mailMessage"
+                        class="Input-Form-text"></textarea>
+                    <div class="submit">
+                        <a onmouseover="appendMailTo()" id="sendMail" href="mailto:kguevarra13@icloud.com"
+                        class="btn-submit">Submit</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

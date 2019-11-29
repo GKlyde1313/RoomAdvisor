@@ -44,10 +44,11 @@ html, body {
     text-shadow: 1px 1px #0C9463;
 }
 
-.contact-form {float:left;
+.contact-form {
+    float: left;
     position: absolute;
     height: 100vh;
-    width: 50%;
+    width: 130vh;
     color: #0C9463;
     padding-left: 90px;
 }
@@ -83,16 +84,93 @@ html, body {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #4CAF50;
+    background-color: #0C9463;
     color: white;
 }
 
-.message-form{
+.message-form {
     right: 0;
     position: absolute;
     height: 100vh;
-    width: 93vh;
-    background-color: black;
+    width: 110vh;
     color: #0C9463;
-    padding-left: 90px;
+}
+
+.message-form h5 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    padding-top: 63px;
+    padding-left: 30px;
+    padding-right: 60px;
+    font-weight: 700;
+}
+
+.form {
+    font-family: "Segoe UI", Arial, sans-serif;  
+    margin-left: 30px;
+    height: 70vh;
+    width: 90vh;
+    color: white;
+    background-color: #0C9463;
+}
+
+.Message-Form{
+    margin-left: 10px;
+    text-align: center;
+}
+
+.Input-Form{
+    width: 98%;
+    border-radius: 10px;
+    height: 20px;
+    background-color:white;
+    text-align: center;
+}
+.Input-Form-text{
+    margin-left: 1.5px;
+    width: 98%;
+    border-radius: 10px;
+    height: 30vh;
+    background-color:white;
+    text-align: center;
+}
+
+.Input-Form:hover{
+    background-color:#DDDDDD;;
+}
+.Input-Form-text:hover{
+    background-color:#DDDDDD;;
+}
+.submit{
+    width: 55px;
+    margin-left: 200px;
+    padding: 3px 3px;
+    border-style: solid;
+    border-color: #6FB98F;
+}
+.submit a{
+    color: white;
+    text-decoration: none;
+}
+.btn-submit{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#pop-up{
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+#pop-up:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.01);
 }
