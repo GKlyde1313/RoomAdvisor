@@ -25,6 +25,7 @@ html, body {
 
 .background-portfolio img {
     position: relative;
+    padding-top: 1vh;
     height: 100vh;
     width: 100%;
     filter: brightness(50%);
@@ -52,7 +53,7 @@ html, body {
 }
 
 .image-portfolio img {
-    margin-top: 10px;
+    margin-top: 20px;
     float: left;
     height: 50vh;
     width: 50vh;
@@ -66,7 +67,7 @@ html, body {
 
 .tagline {
     float: left;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-left: 145px;
     margin-right: 120px;
     height: 50%;
