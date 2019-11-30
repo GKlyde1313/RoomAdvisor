@@ -56,19 +56,23 @@
                 <h5>If you are not satisfied with the resolution of your complaint, you send an e-mail to Customer
                     Service through roomadvisor@gmail.com</h5>
                 <div class="form">
-                    <label class="Message-Form">Email:</label>
-                    <input placeholder="Email Address" id="mailSubject" class="Input-Form" type="text">
-                    <label class="Message-Form">Contact:</label>
-                    <input placeholder="Mobile Phone" id="mailSubject" class="Input-Form" type="text">
-                    <label class="Message-Form">Subject:</label>
-                    <input placeholder="Topic" id="mailSubject" class="Input-Form" type="text">
-                    <label class="Message-Form">Message:</label>
-                    <textarea placeholder="Describe your issue or share your ideas" id="mailMessage"
-                        class="Input-Form-text"></textarea>
-                    <div class="submit">
-                        <a onmouseover="appendMailTo()" id="sendMail" href="mailto:kguevarra13@icloud.com"
-                        class="btn-submit">Submit</a>
-                    </div>
+                    <form action="https://formspree.io/mgevakrg" method="POST">
+                        <label class="Message-Form">Email:</label>
+                        <input type="text" name="email address" placeholder="Email Address" id="mailSubject"
+                            class="Input-Form" type="text">
+                        <label class="Message-Form">Contact:</label>
+                        <input type="text" name="phone number" placeholder="Mobile Phone" id="mailSubject"
+                            class="Input-Form" type="text">
+                        <label class="Message-Form">Subject:</label>
+                        <input type="text" name="topic" placeholder="Topic" id="mailSubject" class="Input-Form"
+                            type="text">
+                        <label class="Message-Form">Message:</label>
+                        <textarea type="text" name="Message" placeholder="Describe your issue or share your ideas" id="mailMessage"
+                            class="Input-Form-text"></textarea>
+                        <div class="submit">
+                            <button type="submit" class="btn-submit">Submit</a>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
