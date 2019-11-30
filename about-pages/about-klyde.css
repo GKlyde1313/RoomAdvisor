@@ -1,0 +1,118 @@
+html, body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.main-portfolio {
+    height: 100vh;
+    width: 100%;
+}
+
+.content-portfolio {
+    height: inherit;
+    width: 100%;
+}
+
+.background-portfolio {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.background-portfolio img {
+    position: relative;
+    padding-top: 1vh;
+    height: 100vh;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.context-portfolio {
+    position: absolute;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.left-context {
+    float: left;
+    height: 100vh;
+    width: 33.33%;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
+}
+
+.main-context {
+    float: left;
+    height: 100vh;
+    width: 33.33%;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
+}
+.main-image {
+    height: 68vh;
+    width: 100%;
+}
+#main-image{
+    position: absolute;
+    height: 280px;
+    width: 280px;
+    border-radius: 30%;
+    transform: translate(31.5%, 25%);
+}
+.main-content{
+    padding-top: 15px;
+    height: 32vh;
+    width: 100%;
+    text-align: center;
+}
+#main-text{
+    font-size: 40px;
+}
+#small-image{
+    margin-bottom: 100px;
+    height: 30px;
+    width: 30px;
+}
+.right-context {
+    float: left;
+    height: 100vh;
+    width: 33.33%;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
+}
+/**/
+#pop{
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+/**/
+.left-context:hover{
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(0px);
+}
+.main-context:hover{
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(0px);
+}
+.right-context:hover{
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(0px);
+}
