@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.main-portfolio {
+    height: 100vh;
+    width: 100%;
+}
+
+.content-portfolio {
+    height: inherit;
+    width: 100%;
+}
