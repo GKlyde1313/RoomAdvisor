@@ -25,10 +25,11 @@ html, body {
 .background-portfolio img {
     position: relative;
     padding-top: 1vh;
-    height: 100vh;
+    height: 99vh;
     width: 100%;
     filter: brightness(50%);
 }
+
 .context-portfolio {
     font-family: "Segoe UI", Arial, sans-serif;
     position: absolute;
@@ -36,58 +37,67 @@ html, body {
     height: 100vh;
     width: 100%;
     color: white;
+    font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(4px);
 }
-.context-main{
-    height: 81vh;
+
+.context-text {
+    float:left;
+    height: 75vh;
+    width: 102vh;
+    margin-top: 10vh;
     margin-left: 90px;
-    padding-top: 20vh;
-    margin-right: 95px;
-}
-#context-main-a{
-    font-size: 80px;
-    text-shadow: 2px 2px #0C9463;
-}
-.about{
-    height: 20vh;
-    width: 100%;
-}
-.first-profile{
-    float: left;
-    height: 55vh;
-    width: 100%;
-}
-.stat-one{
-    float: left;
-    height: 50vh;
-    width: 50vh;
-    margin-right: 28px;
-    background-color: #0C9463;
-}
-
-.stat-one h4{
-    color :white;
-    margin-top: 10px;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 10px;
+    box-shadow: 1px 5px 10px 1px black;
 }
 
-.stat-header{
-    height: 8vh;
-    background-color: white;
-    color:#0C9463;
-    padding-top: 15px;
+.upper-a {
+    font-size: 25px;
+}
+
+.upper-main {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 95px;
+}
+
+.context-text-bottom-left {
+    float: left;
+    padding-top: 35px;
+}
+
+.context-text-bottom-right {
+    float: left;
+    padding-top: 35px;
+    padding-left: 25px;
+}
+
+.bottom-a-content {
     padding-left: 15px;
+    font-size: 15px;
 }
 
-.stat-header a{
-    font-size: 22px;
+.bottom-a {
+    padding-left: 15px;
+    font-size: 20px;
 }
 
-#pop-up{
+.seperator-one {
+    margin-top: -20px;
+}
+
+.seperator {
+    margin-top: -20px;
+}
+
+/**/
+
+#pop-up {
     animation: fadein 2s;
 }
 
@@ -98,4 +108,14 @@ html, body {
     to {
         opacity: 1
     }
+}
+
+/**/
+
+.context-text:hover{
+    
+    transition: .2s ease;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.03);
 }
