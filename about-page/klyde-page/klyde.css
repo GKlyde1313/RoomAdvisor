@@ -1,4 +1,5 @@
 html, body {
+    overflow: hidden;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -8,6 +9,7 @@ html, body {
 .main-portfolio {
     height: 100vh;
     width: 100%;
+    background-color: #CCCCCC;
 }
 
 .content-portfolio {
@@ -51,6 +53,7 @@ html, body {
     height: 10vh;
     padding-left: 5vh;
     padding-right: 3vh;
+    margin-top: 20px;
 }
 
 .resume-text {
@@ -73,17 +76,16 @@ html, body {
 }
 
 .box-profile {
+    font-family: "Segoe UI", Arial, sans-serif;
     float: left;
     height: 83vh;
     width: 60vh;
     color: white;
-    background-color: pink;
+    text-shadow: 1px 1px black;
     margin-top: 4vh;
     margin-left: 5vh;
-    font-family: "Segoe UI", Arial, sans-serif;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
+    border-radius: 20px;
+    background-color: white;
 }
 
 .box-profile a {
@@ -92,17 +94,30 @@ html, body {
 }
 
 .box-profile img {
-    height: 250px;
+    height: 255px;
     width: 250px;
+    border-radius: 20px;
 }
-
-.box-description {
-    display: flex;
-    float: left;
-    height: 83vh;
-    width: 148.19vh;
-    background-color: pink;
-    margin-top: 2.8vh;
-    margin-left: 5vh;
-    margin-right: 5vh;
+.box-status-upper{
+    color:#6FB98F;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.box-status-lower{
+    font-family: "Segoe UI", Arial, sans-serif;
+    height: 23vh;
+    color: white;
+    margin-top: 5px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+#title{
+    color:#6FB98F;
+}
+#p-space{
+    margin-bottom: -20px;
+}
+#p{
+    margin-bottom: -10px;
 }
