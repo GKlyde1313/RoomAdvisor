@@ -223,3 +223,55 @@ html, body {
     box-shadow: 0px 24px 24px 0px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
+
+/**/
+
+.context-text:hover{
+    transition: .2s ease;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.03);
+}
+
+.upper-a:hover{
+    color: #0C9463;
+    transition: .2s ease;
+}
+
+.upper-main:hover{
+    color: #0C9463;
+    transition: .2s ease;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.03);
+}
+
+.context-text-bottom-left:hover{
+    color: #0C9463;
+    transition: .2s ease;
+}
+
+.context-text-bottom-right:hover{
+    color: #0C9463;
+    transition: .2s ease;
+}
+
+#image-one:hover{
+    transition: .2s ease;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.15);
+}
+
+#image-two:hover{
+    transition: .2s ease;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.15);
+}
+
+.main-frame:hover{
+    color: #0C9463;
+    background-color: white;
+    text-shadow: 1px 1px white;
+}

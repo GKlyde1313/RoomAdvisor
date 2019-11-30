@@ -113,9 +113,29 @@ html, body {
 /**/
 
 .context-text:hover{
-    
     transition: .2s ease;
     -ms-transform: scale(1.05);
     -webkit-transform: scale(1.05);
     transform: scale(1.03);
+}
+.upper-a:hover{
+    color: #0C9463;
+    transition: .2s ease;
+}
+.upper-main:hover{
+    color: #0C9463;
+    transition: .2s ease;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.03);
+}
+
+.context-text-bottom-left:hover{
+    color: #0C9463;
+    transition: .2s ease;
+}
+
+.context-text-bottom-right:hover{
+    color: #0C9463;
+    transition: .2s ease;
 }
