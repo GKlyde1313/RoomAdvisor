@@ -11,6 +11,98 @@ html, body {
 }
 
 .content-portfolio {
-    height: inherit;
+    font-family: "Segoe UI", Arial, sans-serif;
+    height: 100vh;
+    margin-left: 90px;
+    margin-right: 101px;
+    background-color: yellow;
+}
+
+.background-portfolio {
+    position: relative;
+    height: 100vh;
     width: 100%;
+    background-color: black;
+}
+
+.background-portfolio img {
+    position: relative;
+    padding-top: 1vh;
+    height: 99vh;
+    width: 100%;
+    margin-right: 85px;
+    filter: brightness(50%);
+}
+
+.context {
+    font-family: "Segoe UI", Arial, sans-serif;
+    position: absolute;
+    bottom: 0;
+    height: 100vh;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
+    padding-top: 0vh;
+}
+
+.resume {
+    height: 10vh;
+    padding-left: 5vh;
+    padding-right: 3vh;
+}
+
+.resume-text {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.images-right {
+    float: right;
+}
+
+.images-right img {
+    height: 40px;
+    width: 40px;
+    border-radius: 30%;
+    margin-top: 16px;
+    margin-right: 10px;
+}
+
+.box-profile {
+    float: left;
+    height: 83vh;
+    width: 60vh;
+    color: white;
+    background-color: pink;
+    margin-top: 4vh;
+    margin-left: 5vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box-profile a {
+    height: 250px;
+    width: 250px;
+}
+
+.box-profile img {
+    height: 250px;
+    width: 250px;
+}
+
+.box-description {
+    display: flex;
+    float: left;
+    height: 83vh;
+    width: 148.19vh;
+    background-color: pink;
+    margin-top: 2.8vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
 }
