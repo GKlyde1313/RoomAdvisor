@@ -57,14 +57,14 @@ html, body {
 }
 .first-profile{
     float: left;
-    height: 55vh;
+    height: 50vh;
     width: 100%;
 }
 .stat-one{
     float: left;
     height: 50vh;
     width: 50vh;
-    margin-right: 28px;
+    margin-right: 26px;
     background-color: #0C9463;
 }
 
