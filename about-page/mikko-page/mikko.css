@@ -56,3 +56,37 @@ html, body {
     padding-top: 15px;
     padding-left: 70px;
 }
+/**/
+#pop{
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.second-page img:hover{
+    transition: .2s ease;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.1);
+}
+
+#me:hover{
+    transition: .2s ease;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.1);
+}
+
+#Text:hover{
+    transition: .2s ease;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.1);
+}
